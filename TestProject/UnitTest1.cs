@@ -10,12 +10,12 @@ namespace TestProject1
         public Test() 
         { 
             driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("file:///C:/Users/Brigita/Documents/__Personal__/Test-Projekt/index.html");
+            driver.Navigate().GoToUrl("file:///Z:/Test-Projekt/index.html");
         }
 
         public void Dispose()
         {
-            driver.Quit();
+            driver.Dispose();
         }
 
         [Test]
